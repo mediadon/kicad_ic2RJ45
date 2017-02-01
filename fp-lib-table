@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name IC_CONN_02x09_axial)(type KiCad)(uri /Users/mediadon/Work/CAN/kicad_libs/IC_CONN_02x09_axial.pretty)(options "")(descr ""))
+  (lib (name IC_CONN_02x09)(type KiCad)(uri /Users/mediadon/Work/CAN/kicad_libs/IC_CONN_02x09.pretty)(options "")(descr ""))
+  (lib (name RJ45_Pollin)(type KiCad)(uri /Users/mediadon/Work/CAN/kicad_libs/RJ45_Pollin.pretty)(options "")(descr ""))
+)
