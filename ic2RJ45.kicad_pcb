@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 23.800999 23.546999 71.449001 51.637001)
     (thickness 1.6)
-    (drawings 14)
+    (drawings 17)
     (tracks 78)
     (zones 0)
     (modules 7)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.43)
+    (last_trace_width 0.25)
     (user_trace_width 0.3)
     (user_trace_width 0.4)
     (user_trace_width 0.43)
@@ -444,6 +444,15 @@
       (net 16 "Net-(CONN1-Pad17)"))
   )
 
+  (gr_text "© Daniel Laffling 2017" (at 36.322 37.592 90) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
+  )
+  (gr_text "github.com\n/mediadon/kicad_ic2RJ45" (at 31.496 37.592 90) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
+  )
+  (gr_text v1.1 (at 34.036 37.592 90) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
+  )
   (dimension 27.94 (width 0.3) (layer Eco1.User)
     (gr_text "27.940 mm" (at 17.192 37.592 270) (layer Eco1.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
