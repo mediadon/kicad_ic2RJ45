@@ -1,1 +1,326 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ic_golf7
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L IC_Golf7 CONN2
+U 1 1 5891FA94
+P 5250 3350
+F 0 "CONN2" H 5200 2850 60  0000 C CNN
+F 1 "IC_Golf7" H 5200 3850 60  0000 C CNN
+F 2 "" H 5200 2750 60  0000 C CNN
+F 3 "" H 5200 2750 60  0000 C CNN
+	1    5250 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L RJ45 J1
+U 1 1 5891FAD6
+P 5200 1600
+F 0 "J1" H 5400 2100 60  0000 C CNN
+F 1 "RJ45" H 5050 2100 60  0000 C CNN
+F 2 "" H 5200 1600 60  0000 C CNN
+F 3 "" H 5200 1600 60  0000 C CNN
+	1    5200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P2
+U 1 1 5891FB3B
+P 4350 2750
+F 0 "P2" H 4350 2900 50  0000 C CNN
+F 1 "TERM" V 4450 2750 50  0000 C CNN
+F 2 "" H 4350 2750 60  0000 C CNN
+F 3 "" H 4350 2750 60  0000 C CNN
+	1    4350 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5891FBC2
+P 4150 2950
+F 0 "R1" V 4230 2950 50  0000 C CNN
+F 1 "120" V 4150 2950 50  0000 C CNN
+F 2 "" V 4080 2950 30  0000 C CNN
+F 3 "" H 4150 2950 30  0000 C CNN
+	1    4150 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 2600 4000 3050
+Wire Wire Line
+	3650 3050 4550 3050
+Wire Wire Line
+	4400 2950 4550 2950
+$Comp
+L CONN_01X03 P1
+U 1 1 5891FC6C
+P 4100 3550
+F 0 "P1" H 4100 3750 50  0000 C CNN
+F 1 "POT" V 4200 3550 50  0000 C CNN
+F 2 "" H 4100 3550 60  0000 C CNN
+F 3 "" H 4100 3550 60  0000 C CNN
+	1    4100 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 3550 4400 3550
+Wire Wire Line
+	4400 3550 4400 3650
+Wire Wire Line
+	4400 3650 4550 3650
+Wire Wire Line
+	4000 3650 4350 3650
+Wire Wire Line
+	4350 3650 4350 3600
+Wire Wire Line
+	4350 3600 4450 3600
+Wire Wire Line
+	4450 3600 4450 3550
+Wire Wire Line
+	4450 3550 4550 3550
+Wire Wire Line
+	3650 3450 4550 3450
+Wire Wire Line
+	4550 2950 4550 2850
+Wire Wire Line
+	3650 2850 4850 2850
+Wire Wire Line
+	4850 2850 4850 2050
+Wire Wire Line
+	4000 2600 4550 2600
+Wire Wire Line
+	4550 2600 4550 2800
+Wire Wire Line
+	4550 2800 4950 2800
+Wire Wire Line
+	4950 2800 4950 2050
+Connection ~ 4000 2950
+Connection ~ 4550 2950
+$Comp
+L GND #PWR1
+U 1 1 5891FDC6
+P 4550 3750
+F 0 "#PWR1" H 4550 3500 50  0001 C CNN
+F 1 "GND" H 4550 3600 50  0000 C CNN
+F 2 "" H 4550 3750 60  0000 C CNN
+F 3 "" H 4550 3750 60  0000 C CNN
+	1    4550 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 5891FDE7
+P 5050 2450
+F 0 "#PWR2" H 5050 2200 50  0001 C CNN
+F 1 "GND" H 5050 2300 50  0000 C CNN
+F 2 "" H 5050 2450 60  0000 C CNN
+F 3 "" H 5050 2450 60  0000 C CNN
+	1    5050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR3
+U 1 1 5891FE01
+P 5350 2450
+F 0 "#PWR3" H 5350 2200 50  0001 C CNN
+F 1 "GND" H 5350 2300 50  0000 C CNN
+F 2 "" H 5350 2450 60  0000 C CNN
+F 3 "" H 5350 2450 60  0000 C CNN
+	1    5350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR4
+U 1 1 5891FE64
+P 5550 2450
+F 0 "#PWR4" H 5550 2300 50  0001 C CNN
+F 1 "VCC" H 5550 2600 50  0000 C CNN
+F 2 "" H 5550 2450 60  0000 C CNN
+F 3 "" H 5550 2450 60  0000 C CNN
+	1    5550 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L VCC #PWR5
+U 1 1 5891FE85
+P 5900 3750
+F 0 "#PWR5" H 5900 3600 50  0001 C CNN
+F 1 "VCC" H 5900 3900 50  0000 C CNN
+F 2 "" H 5900 3750 60  0000 C CNN
+F 3 "" H 5900 3750 60  0000 C CNN
+	1    5900 3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4550 3650 4550 3750
+Connection ~ 4550 3650
+Connection ~ 4550 3750
+$Comp
+L CONN_01X08 P3
+U 1 1 5891FECB
+P 5200 2250
+F 0 "P3" H 5200 2700 50  0000 C CNN
+F 1 "." V 5300 2250 50  0000 C CNN
+F 2 "" H 5200 2250 60  0000 C CNN
+F 3 "" H 5200 2250 60  0000 C CNN
+	1    5200 2250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4850 2450
+Connection ~ 4950 2450
+Wire Wire Line
+	5050 2050 5050 2450
+Wire Wire Line
+	5150 2050 5150 2450
+Wire Wire Line
+	5250 2050 5250 2450
+Wire Wire Line
+	5350 2050 5350 2450
+Wire Wire Line
+	5450 2050 5450 2450
+Wire Wire Line
+	5550 2050 5550 2450
+Connection ~ 5550 2450
+Connection ~ 5450 2450
+Connection ~ 5350 2450
+Connection ~ 5250 2450
+Connection ~ 5150 2450
+Connection ~ 5050 2450
+NoConn ~ 5750 1250
+$Comp
+L IC_Golf7 CONN1
+U 1 1 5892012A
+P 2950 3350
+F 0 "CONN1" H 2900 2850 60  0000 C CNN
+F 1 "IC_Golf7" H 2900 3850 60  0000 C CNN
+F 2 "" H 2900 2750 60  0000 C CNN
+F 3 "" H 2900 2750 60  0000 C CNN
+	1    2950 3350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2850 3650 2950
+Connection ~ 4550 2850
+Connection ~ 4000 3050
+Wire Wire Line
+	3650 3150 4550 3150
+Wire Wire Line
+	4550 3250 3650 3250
+Wire Wire Line
+	3650 3350 4550 3350
+Connection ~ 4300 3450
+Wire Wire Line
+	3950 3550 3950 3650
+Wire Wire Line
+	3950 3650 3650 3650
+Connection ~ 4300 3550
+Wire Wire Line
+	3650 3550 3900 3550
+Wire Wire Line
+	3900 3550 3900 3600
+Wire Wire Line
+	3900 3600 4000 3600
+Wire Wire Line
+	4000 3600 4000 3650
+Connection ~ 4300 3650
+Wire Wire Line
+	4550 3750 3650 3750
+Wire Wire Line
+	2300 3750 2300 3950
+Wire Wire Line
+	2300 3950 5800 3950
+Wire Wire Line
+	5800 3950 5800 3750
+Wire Wire Line
+	5800 3750 5900 3750
+Wire Wire Line
+	2300 3450 2250 3450
+Wire Wire Line
+	2250 3450 2250 4000
+Wire Wire Line
+	2250 4000 6000 4000
+Wire Wire Line
+	6000 4000 6000 3450
+Wire Wire Line
+	6000 3450 5900 3450
+Wire Wire Line
+	5900 3350 6050 3350
+Wire Wire Line
+	6050 3350 6050 4050
+Wire Wire Line
+	6050 4050 2200 4050
+Wire Wire Line
+	2200 4050 2200 3350
+Wire Wire Line
+	2200 3350 2300 3350
+Wire Wire Line
+	2300 3050 2150 3050
+Wire Wire Line
+	2150 3050 2150 4100
+Wire Wire Line
+	2150 4100 6100 4100
+Wire Wire Line
+	6100 4100 6100 3050
+Wire Wire Line
+	6100 3050 5900 3050
+Wire Wire Line
+	5900 2950 6150 2950
+Wire Wire Line
+	6150 2950 6150 4150
+Wire Wire Line
+	6150 4150 2100 4150
+Wire Wire Line
+	2100 4150 2100 2950
+Wire Wire Line
+	2100 2950 2300 2950
+NoConn ~ 5900 3150
+NoConn ~ 5900 3250
+NoConn ~ 5900 3550
+NoConn ~ 5900 3650
+NoConn ~ 2300 3150
+NoConn ~ 2300 3250
+NoConn ~ 2300 3550
+NoConn ~ 2300 3650
+$EndSCHEMATC

@@ -1,4 +1,4 @@
-update=Mittwoch, 01. Februar 2017 'u46' 15:46:51
+update=Mittwoch, 01. Februar 2017 'u10' 16:10:25
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -56,5 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=/Users/mediadon/Work/CAN/kicad_libs/ic_golf7
